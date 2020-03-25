@@ -1,0 +1,162 @@
+a {
+  color: #11999E;
+}
+a:hover{
+  color: #EAF6F6
+}
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Adamina', serif;
+}
+
+h1 {
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Adamina', serif;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+
+}
+
+hr{
+  margin: 50px auto;
+  border-top: 10px;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  border-style: dotted;
+  border-color: #EAF6F6;
+  width:10%;
+}
+
+/* CLASS SECTION */
+
+.topContainer {
+  background-color: #e8f9e9;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container{
+
+}
+
+
+.bottom-container{
+  background-color:#66BFBF;
+  margin-top: 30px;
+  font-family: 'Adamina', serif;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.bottom-cloud {
+  position: absolute;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 100px;
+  right: 250px;
+}
+
+
+.copyright-name {
+  font-size: 50%;
+  padding: 20px 0 0;
+}
+
+.copyright-img{
+  font-size: 50%;
+}
+
+.profilepic {
+  margin-top: 50px;
+  border-radius: 100% 100%;
+  height: 200px;
+  width: 200px;
+}
+
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.kickboxing{
+  float: left;
+  width: 25%;
+  margin-right: 30px;
+}
+
+.kick-descript{
+  clear: left;
+}
+
+.cinema{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.movie-descript{
+  clear: right;
+}
+
+.footer-link{
+margin: 10px 10px;
+text-decoration: none;
+
+}
+
+.contact-me-descript{
+  margin: 30px auto;
+  width: 30%;
+}
+
+.btn {
+
+  font-family: 'Montserrat', sans-serif;
+
+  text-decoration: none;
+
+  font-size: 20px;
+
+  text-align: center;
+
+  vertical-align: middle;
+
+  cursor: pointer;
+
+  border-radius: 8px;
+
+  background: linear-gradient(#66BFBF, #11999E);
+
+  color: #ffffff;
+
+  padding: 10px 20px 10px 20px;
+
+}
+
+
+
+.btn:hover {
+
+  background: linear-gradient(#30e3cb,#2bc4ad)
+
+}
